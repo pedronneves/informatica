@@ -21,8 +21,8 @@ Tarefas de Informática
 # =SOMASE(acidentes2024_todas_causas_tipo!$AA:$AA,"<=18",acidentes2024_todas_causas_tipo!$AD:$AE) - feridos
 =SOMASE(acidentes2024_todas_causas_tipo!$AA:$AA,"<18",acidentes2024_todas_causas_tipo!$AC:$AC) - ilesos
 
-#4 Análise de acidentes diários nos 7 dias da semana 
-# =SOMASE(acidentes2024_todas_causas_tipo!$D:$D,'Dia da Semana'!A2,acidentes2024_todas_causas_tipo!AC:AF)
+#4 Análise dos tipos de acidentes com Vítimas. 
+# =SOMASE(acidentes2024_todas_causas_tipo!$M:$M,'Dia da Semana'!A2,acidentes2024_todas_causas_tipo!AC:AF)
 
 #5 Quantas ocorrências aconteceram por ano do Veículo? 
 # =CONT.SE(acidentes2024_todas_causas_tipo!X:X,'Ano do Veículo'!A2)
